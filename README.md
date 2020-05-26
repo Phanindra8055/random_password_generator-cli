@@ -1,7 +1,7 @@
 # Random Password Generator
 
 ## Usage:
-    random_pass [-h -l _size of required password._ --no_symbol]
+    random_pass [-h -l <size of required password> --no_symbol]
     
 ## Available Commands:
     -h  -  To get help.
