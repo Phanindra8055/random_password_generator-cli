@@ -5,7 +5,8 @@ from .random_pass_gen import random_pass
 def main():
     args = sys.argv[1:]
     no_symbol = True if "--no_symbol" in args else False
-    args.remove("--no_symbol")
+    if no_symbol:
+        args.remove("--no_symbol")
 
     if len(args) == 0:
         random_pass(no_symbols=no_symbol)
